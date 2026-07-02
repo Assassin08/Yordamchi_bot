@@ -12,8 +12,8 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 from fastapi import FastAPI, Request
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
-RENDER_URL = os.getenv("RENDER_URL") 
+TOKEN = "8985813448:AAGXur6r5-pPMr9hEqYv4597-C8qd0cozOc"
+RENDER_URL = "https://yordamchi-bot-bi29.onrender.com" 
 WEBHOOK_PATH = f"/webhook/{TOKEN}"
 WEBHOOK_URL = f"{RENDER_URL}{WEBHOOK_PATH}"
 
